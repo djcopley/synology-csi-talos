@@ -36,10 +36,10 @@ images:
   plugin:
     pullPolicy: IfNotPresent
     image:
-      repository: ghcr.io/zebernst/synology-csi
+      repository: ghcr.io/djcopley/synology-csi-talos
       # Defaults to {{ $.Chart.AppVersion }} if empty or not present:
       tag: ""
-    supportChrootDir: true
+    supportChrootDir: false
   provisioner:
     pullPolicy: IfNotPresent
     image:
