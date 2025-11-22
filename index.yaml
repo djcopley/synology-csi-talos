@@ -17,4 +17,21 @@ entries:
     urls:
     - https://github.com/djcopley/synology-csi-talos/releases/download/synology-csi-0.10.0/synology-csi-0.10.0.tgz
     version: 0.10.0
-generated: "2025-11-22T09:17:32.870929205Z"
+  synology-csi-talos:
+  - apiVersion: v2
+    appVersion: v1.2.1
+    created: "2025-11-22T10:06:30.851722296Z"
+    description: A Helm chart for the Synology CSI Driver
+    digest: 4d406ecfe73db8e7b0e2b45f582c0f4fa699c25489fffe756b7641b827753940
+    keywords:
+    - Synology
+    - CSI Driver
+    kubeVersion: '>= 1.20.0'
+    name: synology-csi-talos
+    sources:
+    - https://github.com/djcopley/synology-csi-talos/tree/main
+    - https://github.com/SynologyOpenSource/synology-csi/tree/main
+    urls:
+    - https://github.com/djcopley/synology-csi-talos/releases/download/synology-csi-talos-0.10.0/synology-csi-talos-0.10.0.tgz
+    version: 0.10.0
+generated: "2025-11-22T10:06:30.851730097Z"
